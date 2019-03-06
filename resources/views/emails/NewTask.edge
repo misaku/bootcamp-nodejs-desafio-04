@@ -1,0 +1,21 @@
+<strong>usuário {{username}} gostaria de compartilhar com você o seguinte evento</strong>
+
+<p>{{title}}</p>
+<p>Inicio:{{start_event}} - Fim:{{finish_event}}</p>
+<p>{{description}}</p>
+<strong>Local</strong>
+<p>
+  Rua:{{street}} Nº{{number}}
+  @if(hasadjunct)
+  Complemento:{{adjunct}}
+  @endif
+  @if(hasdistrict)
+  Bairro:{{district}}
+  @endif
+  <br/>
+  Cidade:{{city}} Esatado:{{state}} País:{{place}}
+  <br/>
+  CEP:{{postal_code}}
+</p>
+
+
