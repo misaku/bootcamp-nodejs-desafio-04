@@ -32,7 +32,7 @@
     "@adonisjs/vow": "^1.0.17",
     "adonis-kue": "^5.0.1",
     "adonis-sentry": "^1.0.3",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "pg": "^7.8.1"
   },
   "devDependencies": {
